@@ -3,8 +3,8 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
-    <string name="title_addstudent">Add Student</string>
-    <string name="title_aboutus">About Us</string>
+    <string name="title_add_item">Add Item</string>
+    <string name="title_account">Account</string>
     <string name="title_activity_login">Sign in</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>

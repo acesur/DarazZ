@@ -35,7 +35,7 @@
                 android:text="" />
 
             <ImageView
-                android:id="@+id/stdelete"
+                android:id="@+id/itemdelete"
                 android:layout_width="50dp"
                 android:layout_height="25dp"
                 android:layout_alignTop="@+id/itemname"
@@ -45,7 +45,7 @@
                 android:text="Delete" />
 
             <TextView
-                android:id="@+id/st_age"
+                android:id="@+id/itemqty"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/itemname"
@@ -54,22 +54,22 @@
 
 
             <TextView
-                android:id="@+id/staddress"
+                android:id="@+id/itemprice"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/st_age"
+                android:layout_below="@+id/itemqty"
                 android:layout_marginTop="10dp"
                 android:text="" />
 
             <TextView
-                android:id="@+id/stgender"
+                android:id="@+id/itemManufac"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignBaseline="@id/staddress"
-                android:layout_alignTop="@+id/staddress"
+                android:layout_alignBaseline="@id/itemprice"
+                android:layout_alignTop="@+id/itemprice"
                 android:layout_marginLeft="140dp"
-                android:layout_toRightOf="@id/staddress"
-                android:text="Female" />
+                android:layout_toRightOf="@id/itemprice"
+                android:text="Date" />
 
         </RelativeLayout>
     </LinearLayout>
