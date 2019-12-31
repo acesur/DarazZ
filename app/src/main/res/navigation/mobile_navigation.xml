@@ -18,18 +18,18 @@
     <!--        tools:layout="@layout/fragment_dashboard" />-->
 
     <fragment
-        android:id="@+id/navigation_addstudent"
-        android:name="com.example.ecoventry.ui.addstudent.AddStudentFragment"
-        android:label="@string/title_addstudent"
-        tools:layout="@layout/add_student" />
+        android:id="@+id/navigation_add_item"
+        android:name="com.example.darazz.ui.account.notifications.NotificationsFragment"
+        android:label="@string/title_add_item"
+        tools:layout="@layout/item_layout" />
 
 
 
     <fragment
-        android:id="@+id/navigation_aboutus"
-        android:name="com.example.ecoventry.ui.aboutus.AboutUsFragment"
-        android:label="@string/title_aboutus"
-        tools:layout="@layout/aboutus_layout" />
+        android:id="@+id/navigation_account"
+        android:name="com.example.darazz.ui.account.home.HomeFragment"
+        android:label="@string/title_account"
+        tools:layout="@layout/activity_login" />
 
 
 </navigation>
